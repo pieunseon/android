@@ -64,4 +64,35 @@
         android:text="주문내역확인"
         android:background="#2471A3"
         android:textColor="#FDFEFE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:background="#154360"
+            android:text="HOME"
+            android:textColor="#FDFEFE"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:background="#154360"
+            android:text="Pre"
+            android:textColor="#FDFEFE"
+            android:textSize="14dp" />
+    </LinearLayout>
 </LinearLayout>

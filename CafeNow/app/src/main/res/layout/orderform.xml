@@ -164,7 +164,7 @@
 
                         <TextView
                             android:id="@+id/price1"
-                            android:layout_width="250dp"
+                            android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
@@ -176,19 +176,20 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="2dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="50dp"
                             android:background="#154360"
                             android:text="+"
                             android:textColor="#FDFEFE" />
 
                         <TextView
                             android:id="@+id/count1"
-                            android:layout_width="300dp"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:textAlignment="center"
                             android:layout_weight="2"
-                            android:text="1"
+                            android:text="0"
                             android:textColor="#424242" />
                         <Button
                             android:id="@+id/btnMinus1"
@@ -197,13 +198,12 @@
                             android:layout_marginRight="15dp"
                             android:background="@drawable/btn_bg_ex"
                             android:text="-"
-                            android:textColor="#154360"
-                            />
+                            android:textColor="#154360" />
 
                     </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
+
             <View
                 android:background="#CEE3F6"
                 android:layout_width="match_parent"
@@ -260,7 +260,7 @@
 
                         <TextView
                             android:id="@+id/price2"
-                            android:layout_width="250dp"
+                            android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
@@ -272,18 +272,19 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="2dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="50dp"
                             android:background="#154360"
                             android:text="+"
                             android:textColor="#FDFEFE" />
 
                         <TextView
                             android:id="@+id/count2"
-                            android:layout_width="300dp"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             android:layout_weight="2"
+                            android:textAlignment="center"
                             android:text="0"
                             android:textColor="#424242" />
                         <Button
@@ -354,7 +355,7 @@
 
                         <TextView
                             android:id="@+id/price3"
-                            android:layout_width="250dp"
+                            android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
@@ -366,18 +367,19 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="2dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="50dp"
                             android:background="#154360"
                             android:text="+"
                             android:textColor="#FDFEFE" />
 
                         <TextView
                             android:id="@+id/count3"
-                            android:layout_width="300dp"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             android:layout_weight="2"
+                            android:textAlignment="center"
                             android:text="0"
                             android:textColor="#424242" />
                         <Button
@@ -447,7 +449,7 @@
 
                         <TextView
                             android:id="@+id/price4"
-                            android:layout_width="250dp"
+                            android:layout_width="170dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
@@ -459,19 +461,20 @@
                             android:layout_width="20dp"
                             android:layout_height="20dp"
                             android:layout_marginRight="2dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginLeft="50dp"
                             android:background="#154360"
                             android:text="+"
                             android:textColor="#FDFEFE" />
 
                         <TextView
                             android:id="@+id/count4"
-                            android:layout_width="300dp"
+                            android:layout_width="200dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
                             android:layout_weight="2"
                             android:text="0"
+                            android:textAlignment="center"
                             android:textColor="#424242" />
                         <Button
                             android:id="@+id/btnMinus4"
